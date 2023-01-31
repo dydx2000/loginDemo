@@ -14,12 +14,13 @@
   --purple: #722ed1;
   --magenta: #eb2f96;
   --hsl-magenta: 327, 82%, 55%;
-  font-size: 10px;
+
 
   --cyan-light: #5cdbd3;
   --blue-light: #69c0ff;
   --hsl-blue-light: 205, 100%, 71%;
   --yellow-light: #fffb8f;
+  font-size: 10px;
 }
 
 *,
@@ -30,7 +31,7 @@
   text-decoration: none;
   list-style: none;
   box-sizing: border-box;
-  user-select: none;
+  // user-select: none;
   -webkit-user-drag: none;
   font-family: "Courier New", Courier, monospace;
 }
@@ -77,6 +78,7 @@ body {
 
     form {
       font-size: 1.6rem;
+     
       @include setCenter;
       flex-direction: column;
       gap: 2rem;
@@ -85,6 +87,7 @@ body {
         width: 100%;
         input {
           font-size: 1.6rem;
+          font-weight: 700;
           width: calc(100% - 10.5rem);
           background-color: hsl(var(--hsl-blue-dark), 0.4);
           border: none;
