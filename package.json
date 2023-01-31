@@ -12,6 +12,7 @@
     "vite": "^4.0.0"
   },
   "dependencies": {
-    "normalize.css": "^8.0.1"
+    "normalize.css": "^8.0.1",
+    "scss": "^0.2.4"
   }
 }

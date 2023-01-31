@@ -27,6 +27,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./",\
         "packageDependencies": [\
           ["normalize.css", "npm:8.0.1"],\
+          ["scss", "npm:0.2.4"],\
           ["vite", "virtual:f3a2010682eb0aa8ecb2945849f690e61cedbf2c971f2d205ec30438d163ffb866f2f433a2bb841ca4248f4f9cf71ab4812425bef18d20220c574d70044b5831#npm:4.0.4"]\
         ],\
         "linkType": "SOFT"\
@@ -811,6 +812,7 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["logindemo", "workspace:."],\
           ["normalize.css", "npm:8.0.1"],\
+          ["scss", "npm:0.2.4"],\
           ["vite", "virtual:f3a2010682eb0aa8ecb2945849f690e61cedbf2c971f2d205ec30438d163ffb866f2f433a2bb841ca4248f4f9cf71ab4812425bef18d20220c574d70044b5831#npm:4.0.4"]\
         ],\
         "linkType": "SOFT"\
@@ -1051,6 +1053,15 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["ometa", [\
+      ["npm:0.2.2", {\
+        "packageLocation": "./.yarn/unplugged/ometa-npm-0.2.2-a91ea6ee26/node_modules/ometa/",\
+        "packageDependencies": [\
+          ["ometa", "npm:0.2.2"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["once", [\
       ["npm:1.4.0", {\
         "packageLocation": "../../../../D:/Users/Peter/AppData/Local/Yarn/Berry/cache/once-npm-1.4.0-ccf03ef07a-9.zip/node_modules/once/",\
@@ -1210,6 +1221,16 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../../../D:/Users/Peter/AppData/Local/Yarn/Berry/cache/safer-buffer-npm-2.1.2-8d5c0b705e-9.zip/node_modules/safer-buffer/",\
         "packageDependencies": [\
           ["safer-buffer", "npm:2.1.2"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["scss", [\
+      ["npm:0.2.4", {\
+        "packageLocation": "../../../../D:/Users/Peter/AppData/Local/Yarn/Berry/cache/scss-npm-0.2.4-97993b1bc4-9.zip/node_modules/scss/",\
+        "packageDependencies": [\
+          ["scss", "npm:0.2.4"],\
+          ["ometa", "npm:0.2.2"]\
         ],\
         "linkType": "HARD"\
       }]\

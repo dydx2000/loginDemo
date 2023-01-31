@@ -710,6 +710,7 @@ __metadata:
   resolution: "logindemo@workspace:."
   dependencies:
     normalize.css: "npm:^8.0.1"
+    scss: "npm:^0.2.4"
     vite: "npm:^4.0.0"
   languageName: unknown
   linkType: soft
@@ -938,6 +939,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"ometa@npm:0.2.2":
+  version: 0.2.2
+  resolution: "ometa@npm:0.2.2"
+  checksum: f9a92c75eee2c7bb9699333f92bbf86b4671148882442729491a6b3f143a598549a3328815504a9bfdd71e76685d3ab3193bb1210f73c8cef2f43baa2c36f246
+  languageName: node
+  linkType: hard
+
 "once@npm:^1.3.0":
   version: 1.4.0
   resolution: "once@npm:1.4.0"
@@ -1085,6 +1093,15 @@ __metadata:
   version: 2.1.2
   resolution: "safer-buffer@npm:2.1.2"
   checksum: d4199666e9e792968c0b88c2c35dd400f56d3eecb9affbcf5207922822eadf30cc06995bae3c5d0a653851bbd40fc0af578bf046bbf734199ce22433ba4da659
+  languageName: node
+  linkType: hard
+
+"scss@npm:^0.2.4":
+  version: 0.2.4
+  resolution: "scss@npm:0.2.4"
+  dependencies:
+    ometa: "npm:0.2.2"
+  checksum: 3689acca52dc81360c966eba702c1aa97a39539f5ff5221754c967a11e69bbd27d4356004d70d165ab22e575ddb48cf4a8fdf9c0891dbed61d4865f5ba1a3282
   languageName: node
   linkType: hard
 
