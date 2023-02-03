@@ -75,7 +75,7 @@ function checkPassword(info) {
   } else {
     passwordGroup.classList.remove('error')
     passwordGroup.classList.add('success')
-    passwordMsg.textContent =""
+    passwordMsg.textContent = ""
   }
 
 
@@ -86,7 +86,7 @@ function checkEmail(info) {
   const emailMsg = document.getElementById('email_msg')
   emailMsg.textContent = "";
   // const email = new RegExp('^[a-zA-Z0-9_-]+@[a-zA-Z0-9_-]+\.[a-zA-Z0-9_-]+')
-  const email = new RegExp('^[a-zA-Z0-9_-]+@[a-zA-Z0-9_-]+(\.[a-zA-Z0-9_-]+)+$')
+  const email = new RegExp('^[a-zA-Z0-9_-]+@[a-zA-Z0-9_-]+\.[a-zA-Z0-9_-]+$')
 
   // let errorFlag = false
   const input_group = document.getElementById('input_group')
@@ -99,7 +99,7 @@ function checkEmail(info) {
     input_group.classList.add('error')
 
     // errorFlag = true
-  }else {
+  } else {
     console.log("---mail is valid---");
     emailMsg.textContent = ""
     input_group.classList.remove('error')
