@@ -59,7 +59,7 @@ body {
 
 .container {
   @include setCenter;
-
+  // font-weight: 700;
   width: 50%;
   max-width: 60rem;
   min-width: 30rem;
@@ -127,7 +127,7 @@ body {
         }
 
         #password {
-          width: calc(100% - 10.5rem - 1rem);
+          width: calc(100% - 10.5rem - 2rem);
         }
 
         .password_icon {
@@ -136,6 +136,14 @@ body {
           }
           #eye-slash {
             display: none;
+          }
+          &.show {
+            #eye {
+              display: none;
+            }
+            #eye-slash {
+              display: inline;
+            }
           }
         }
 

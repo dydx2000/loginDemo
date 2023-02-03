@@ -5,9 +5,9 @@
   <meta charset="UTF-8" />
   <link rel="icon" type="image/svg+xml" href="/vite.svg" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
     integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
   <script src="https://use.fontawesome.com/releases/v6.1.2/js/all.js"></script>
   <title>Login Demo</title>
 </head>
@@ -20,21 +20,21 @@
         <form action="#" class="form">
 
           <!-- Email Input -->
-          <div class="input-group success">
+          <div id ="input_group" class="input-group">
             <label for="email">UserMail</label>
             <input type="text" id="email" name="email" placeholder="User Email ...">
             <br>
-            <span class="message">Valid Email</span>
+            <span id='email_msg' class="message">Valid Email</span>
           </div>
 
           <!-- Password Input -->
-          <div id="password_group" class="input-group">
+          <div id="password_group" class="input-group ">
 
             <label for="password">Password</label>
             <input type="password" id="password" name="password" placeholder="User Password ...">
             <span class="password_icon">
-              <i class="fa-solid fa-eye"></i>
-              <i class="fa-solid fa-eye-slash"></i>
+              <i id="eye" class="fa-solid fa-eye"></i>
+              <i id="eye-slash" class="fa-solid fa-eye-slash"></i>
             </span>
             <span id="password_msg" class="message">Valid Password</span>
           </div>
@@ -48,4 +48,4 @@
   <script type="module" src="/src/js/main.js"></script>
 </body>
 
-</html>
+</html>  
